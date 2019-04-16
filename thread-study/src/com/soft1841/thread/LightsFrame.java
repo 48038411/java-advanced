@@ -23,7 +23,7 @@ public class LightsFrame extends JFrame {
         imgPanel.setBorder(new TitledBorder(null, "交通灯", TitledBorder.LEADING, TitledBorder.TOP, null, null));
         add(imgPanel);
         imgLabel.setBackground(Color.WHITE);
-        ImageIcon image = new ImageIcon(this.getClass().getResource("/img/Green.png"));
+        ImageIcon image = new ImageIcon(this.getClass().getResource("/img/bg1.png"));
         imgLabel.setIcon(image);
         imgPanel.add(imgLabel, BorderLayout.CENTER);
         Thread thread = new TurnThread(imgLabel); // 创建线程类的子类之“改变颜色”的对象

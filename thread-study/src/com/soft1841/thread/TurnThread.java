@@ -23,13 +23,13 @@ public class TurnThread extends Thread {
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            imgLabel.setIcon(new ImageIcon(LightsFrame.class.getResource("/img/Red.png"))); // 红灯
+            imgLabel.setIcon(new ImageIcon(LightsFrame.class.getResource("/img/btn.png"))); // 红灯
             try {
                 Thread.sleep(5000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            imgLabel.setIcon(new ImageIcon(LightsFrame.class.getResource("/img/Green.png"))); // 绿灯
+            imgLabel.setIcon(new ImageIcon(LightsFrame.class.getResource("/img/bg1.png"))); // 绿灯
         }
     }
 }
