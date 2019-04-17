@@ -21,7 +21,7 @@ public class ComponentPaintFrame extends JFrame {
         JPanel jPanel =new  JPanel(){
             protected void paintComponent(Graphics graphics){
                 try {
-                    Image bg = ImageIO.read(new File("E:/1.jpg"));
+                    Image bg = ImageIO.read(new File("E:/time1.jpg"));
                     graphics.drawImage(bg,0,0,getWidth(),getHeight(),null);
                 } catch (IOException e) {
                     e.printStackTrace();

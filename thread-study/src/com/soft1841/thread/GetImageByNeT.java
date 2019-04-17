@@ -24,7 +24,7 @@ public class GetImageByNeT {
         }
         inStream.close();
         byte[] date = out1.toByteArray();
-        File imageFile = new File("F:\\1.jpg");
+        File imageFile = new File("F:\\time1.jpg");
         OutputStream out2 = new FileOutputStream(imageFile);
         out2.write(date);
         out2.close();

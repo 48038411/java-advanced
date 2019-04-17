@@ -19,7 +19,7 @@ public class DrawImageTest extends JFrame {
         public  void paint(Graphics g){
             super.paint(g);
             Graphics2D graphics2D = (Graphics2D) g;
-            Image image = new ImageIcon(this.getClass().getResource("/img/1.jpg")).getImage();
+            Image image = new ImageIcon(this.getClass().getResource("/img/time1.jpg")).getImage();
             graphics2D.drawImage(image,0,0,this);
         }
     }
