@@ -16,18 +16,21 @@ public class JSoupDemo2 {
         File file;
         InputStream in;
         OutputStream out;
-        String url = "http://www.quanben.io/";
+        String url = "https://www.imooc.com/";
+        File input = new File("D:/test.html");
         Connection connection = Jsoup.connect(url);
+        System.out.println(connection.toString());
         Document document = connection.get();
-        Elements elements = document.getElementsByClass("list2");
-        System.out.println(elements.size());
+        //System.out.println(document);
+        Elements elements = document.getElementsByClass("course-card-top hashadow");
         for (Element e:elements
              ) {
             Element imgElement = e.child(0);
+            //Elements elements1 = document.getElementsByTag("a");
             UUID uuid = UUID.randomUUID();
             String imgName = uuid + ".jpg";
             file = new File("E:\\myImage\\"+imgName);
-            URL url1 = new URL(imgElement.attr("src"));
+            URL url1 = new URL("https:"+imgElement.attr("src"));
             URLConnection uc = url1.openConnection();
             in = uc.getInputStream();
             out = new FileOutputStream(file);
