@@ -1,8 +1,6 @@
 package com.soft1841.io;
 
 
-import org.jb2011.lnf.beautyeye.BeautyEyeLNFHelper;
-import org.jb2011.lnf.beautyeye.ch3_button.BEButtonUI;
 
 import javax.swing.*;
 import java.awt.*;
@@ -42,25 +40,21 @@ public class FileManagerFrame extends JFrame implements ActionListener {
         copyBtn = new JButton("备份");
         copyBtn.addActionListener(this);
         copyBtn.setPreferredSize(new Dimension(80, 40));
-        copyBtn.setUI(new BEButtonUI().setNormalColor(BEButtonUI.NormalColor.lightBlue));
         topPanel.add(copyBtn);
 
         imgBtn = new JButton("图片");
         imgBtn.addActionListener(this);
         imgBtn.setPreferredSize(new Dimension(80, 40));
-        imgBtn.setUI(new BEButtonUI().setNormalColor(BEButtonUI.NormalColor.lightBlue));
         topPanel.add(imgBtn);
 
         textBtn = new JButton("文本");
         textBtn.addActionListener(this);
         textBtn.setPreferredSize(new Dimension(80, 40));
-        textBtn.setUI(new BEButtonUI().setNormalColor(BEButtonUI.NormalColor.lightBlue));
         topPanel.add(textBtn);
 
         chooseBtn = new JButton("选择");
         chooseBtn.addActionListener(this);
         chooseBtn.setPreferredSize(new Dimension(80, 40));
-        chooseBtn.setUI(new BEButtonUI().setNormalColor(BEButtonUI.NormalColor.lightBlue));
         topPanel.add(chooseBtn);
 
 
@@ -85,12 +79,6 @@ public class FileManagerFrame extends JFrame implements ActionListener {
     }
 
     public static void main(String[] args) {
-        try {
-            BeautyEyeLNFHelper.frameBorderStyle = BeautyEyeLNFHelper.FrameBorderStyle.osLookAndFeelDecorated;
-            BeautyEyeLNFHelper.launchBeautyEyeLNF();
-        } catch (Exception e1) {
-            e1.printStackTrace();
-        }
         new FileManagerFrame();
     }
 

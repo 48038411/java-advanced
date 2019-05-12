@@ -1,6 +1,5 @@
 package com.soft1841.io;
 
-import org.jb2011.lnf.beautyeye.BeautyEyeLNFHelper;
 
 import javax.swing.*;
 import java.awt.*;
@@ -55,12 +54,6 @@ public class ImageViewerFrame extends JFrame implements ActionListener {
     }
 
     public static void main(String[] args) {
-        try {
-            BeautyEyeLNFHelper.frameBorderStyle = BeautyEyeLNFHelper.FrameBorderStyle.osLookAndFeelDecorated;
-            BeautyEyeLNFHelper.launchBeautyEyeLNF();
-        }catch (Exception e){
-            e.printStackTrace();
-        }
         new ImageViewerFrame();
     }
 

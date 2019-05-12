@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Java-advanced:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Java_advanced_jar</output-path>
+    <root id="archive" name="Java-advanced.jar">
+      <element id="module-output" name="first-order" />
+      <element id="module-output" name="forst" />
+      <element id="module-output" name="name" />
+      <element id="module-output" name="io-study" />
+      <element id="module-output" name="collection-study" />
+      <element id="module-output" name="socket-study" />
+      <element id="module-output" name="thread-study" />
+      <element id="module-output" name="tianlan" />
+      <element id="module-output" name="gui-form" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/thread-study/src/jar/jsoup-1.11.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../swt-win64-3.6.2.jar/swt-win64-3.6.2.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

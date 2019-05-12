@@ -5,7 +5,6 @@ package com.soft1841.io;
  * 2019.4.2
  */
 
-import org.jb2011.lnf.beautyeye.BeautyEyeLNFHelper;
 
 import javax.swing.*;
 import java.awt.*;
@@ -64,12 +63,6 @@ public class CardLayoutTest extends JFrame implements ActionListener {
     }
 
     public static void main(String[] args) {
-        try {
-            BeautyEyeLNFHelper.frameBorderStyle = BeautyEyeLNFHelper.FrameBorderStyle.osLookAndFeelDecorated;
-            BeautyEyeLNFHelper.launchBeautyEyeLNF();
-        }catch (Exception e){
-            e.printStackTrace();
-        }
         new CardLayoutTest();
     }
 
