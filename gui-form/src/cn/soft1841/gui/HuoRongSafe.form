@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="cn.soft1841.gui.HuoRongSafe">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="8" column-count="17" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="1069" height="689"/>
+    </constraints>
+    <properties>
+      <background color="-1"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="205e0" class="javax.swing.JLabel" binding="logoLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="17" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="img/huoronglogo.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="c668a" class="javax.swing.JButton" binding="病毒查杀Button" default-binding="true">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="17" vsize-policy="0" hsize-policy="3" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="false"/>
+          <focusPainted value="false"/>
+          <foreground color="-8882032"/>
+          <icon value="img/shandian.png"/>
+          <text value="病毒查杀"/>
+        </properties>
+      </component>
+      <component id="abfb1" class="javax.swing.JLabel" binding="label">
+        <constraints>
+          <grid row="2" column="1" row-span="3" col-span="1" vsize-policy="0" hsize-policy="0" anchor="5" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="img/huorong.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <vspacer id="76325">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="1236" class="javax.swing.JButton" binding="家长控制Button" default-binding="true">
+        <constraints>
+          <grid row="3" column="0" row-span="2" col-span="17" vsize-policy="0" hsize-policy="3" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="false"/>
+          <focusPainted value="false"/>
+          <foreground color="-8882032"/>
+          <icon value="img/san.png"/>
+          <text value="家长控制"/>
+        </properties>
+      </component>
+      <component id="93033" class="javax.swing.JButton" binding="拓展工具Button" default-binding="true">
+        <constraints>
+          <grid row="4" column="0" row-span="2" col-span="17" vsize-policy="0" hsize-policy="3" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="false"/>
+          <focusPainted value="false"/>
+          <foreground color="-8882032"/>
+          <icon value="img/windows.png"/>
+          <text value="拓展工具"/>
+        </properties>
+      </component>
+      <component id="d7a2a" class="javax.swing.JButton" binding="防护中心Button" default-binding="true">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="false"/>
+          <focusPainted value="false"/>
+          <foreground color="-8882032"/>
+          <icon value="img/dun.png"/>
+          <text value="防护中心"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
