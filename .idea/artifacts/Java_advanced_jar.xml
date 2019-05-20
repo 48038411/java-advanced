@@ -2,17 +2,28 @@
   <artifact type="jar" name="Java-advanced:jar">
     <output-path>$PROJECT_DIR$/out/artifacts/Java_advanced_jar</output-path>
     <root id="archive" name="Java-advanced.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/life-tools/src/main/java/cn/soft1841/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="gui-form" />
       <element id="module-output" name="first-order" />
+      <element id="module-output" name="collection-study" />
+      <element id="module-output" name="jdbc-study" />
       <element id="module-output" name="forst" />
       <element id="module-output" name="name" />
       <element id="module-output" name="io-study" />
-      <element id="module-output" name="collection-study" />
-      <element id="module-output" name="socket-study" />
-      <element id="module-output" name="thread-study" />
+      <element id="module-output" name="life-tools" />
+      <element id="module-output" name="test" />
       <element id="module-output" name="tianlan" />
-      <element id="module-output" name="gui-form" />
+      <element id="module-output" name="thread-study" />
+      <element id="module-output" name="socket-study" />
+      <element id="extracted-dir" path="F:/local_repositry/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="F:/local_repositry/mysql/mysql-connector-java/5.1.39/mysql-connector-java-5.1.39.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$PROJECT_DIR$/thread-study/src/jar/jsoup-1.11.3.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$PROJECT_DIR$/../swt-win64-3.6.2.jar/swt-win64-3.6.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="F:/local_repositry/com/alibaba/fastjson/1.2.56/fastjson-1.2.56.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="F:/local_repositry/commons-codec/commons-codec/1.2/commons-codec-1.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="F:/local_repositry/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar" path-in-jar="/" />
     </root>
   </artifact>
 </component>

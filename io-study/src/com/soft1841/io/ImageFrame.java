@@ -40,6 +40,7 @@ public class ImageFrame extends JFrame {
             inputStream = new FileInputStream(file);
             bytes = new byte[(int) file.length()];
             inputStream.read(bytes);
+            System.out.println(inputStream);
         } catch (IOException e) {
             System.out.println("IO异常");
         }

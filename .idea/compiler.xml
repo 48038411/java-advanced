@@ -8,10 +8,12 @@
         <outputRelativeToContentRoot value="true" />
         <module name="socket-study" />
         <module name="jdbc-study" />
+        <module name="life-tools" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="jdbc-study" target="1.5" />
+      <module name="life-tools" target="8" />
       <module name="socket-study" target="1.5" />
     </bytecodeTargetLevel>
   </component>
